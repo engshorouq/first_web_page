@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="description" content="The log in or sign in ">
+            <title> ”ÃÌ· «·œŒÊ·</title>
+            <link rel="stylesheet" href="">
+            <script></script>
+            <style>
+                .main{
+                   width: 1300px;
+                   height: 640px;
+                }
+                .cont{
+                    height: 570px;
+                }
+                .lef{
+                    height: 500px;
+                    width: 640px;
+                    float: left;
+                    display: block;
+                    text-align: center;
+                }
+                .righ{
+                    position: relative;
+                    height: 500px;
+                    width: 645px;
+                    float: right;
+                    text-align: center;
+                }
+                .h22,.pp,.form1,.iamge1{
+                    text-align: left;
+                }
+                .in{
+                    position: absolute;
+                    width: 475px;
+                    height: 150px;
+                    background: #0080c0;
+                    left: 90px;
+                    top: 350px
+                }
+                .h22,.pp{
+                    color: #fcfcfc
+                }
+                .input1{
+                    color: #0080c0
+                }
+                .image{
+                    position:absolute;
+                    left:100px;
+                    top:100px;
+                }
+                .label1{
+                    position:absolute;
+                    left:100px;
+                    top:200px;
+                }
+                .input2{
+                    position:absolute;
+                    left:100px;
+                    top:220px;
+                    width: 250px;
+                    color: #ccc
+                }
+                .input3{
+                    position:absolute;
+                    left:100px;
+                    top:247px;
+                    width: 250px;
+                    color: #CCC
+                    
+                }
+                .input4{
+                    position:absolute;
+                    left:100px;
+                    top:276px;
+                }
+                .label2{
+                    position:absolute;
+                    left:135px;
+                    top:276px;
+                }
+                .input5{
+                    position:absolute;
+                    left:100px;
+                    top:330px;
+                    background: #0080c0;
+                    color: #fbfbfb;
+                    width: 80px;
+                    height: 30px
+                }
+                .a1{
+                    position:absolute;
+                    left:100px;
+                    top:390px;
+                    text-decoration: none
+                }
+                .a2{
+                  position:absolute;
+                  left:100px;
+                  top:410px;
+                  text-decoration: none
+                }
+                .label3{
+                  position:absolute;
+                  left:100px;
+                  top:455px;  
+                }
+                .a3{
+                  position:absolute;
+                  left:310px;
+                  top:455px;
+                  text-decoration: none
+                }
+                .foot{
+                    background: #e5e5e5;
+                    position: relative;
+                    width: 1350px;
+                    height: 85px
+                }
+                ul{
+                    list-style: none;
+                }
+                ul,li{
+                    display: inline-block;
+                    padding: 5px;
+                    margin: 1px;
+                    color: #7c7c7c
+                }
+                .h44{
+                    color: #7c7c7c;
+                    position: absolute;
+                    left: 80px;
+                }
+                .li1{
+                   position: absolute;
+                   top: 35px;
+                   left: 75px;
+                }
+                .li2{
+                    position: absolute;
+                    top: 35px;
+                    left: 170px;
+                }
+                .li3{
+                    position: absolute;
+                    top: 35px;
+                    left: 310px
+                }
+                
+                
+            </style>
+        </head>
+        <body>
+            <div class="main">
+                <div class="cont">
+                    <div class="lef">
+                        <br>
+                        <img class="image1" src="hotmail.jpg" alt="hotmail">
+                        <div class="in">
+                            <h2 class="h22">Take Outlook with you anywhere </h2>
+                            <p class="pp">Get a better e-mail experience on iOS devices and Android and Windows.</p>
+                            <form class="form1" action="https://www.microsoft.com/ar-xm/outlook-com" target="_blank">
+                            <input class="input1" type="submit" value="Know more" >
+                            </form>
+                        </div>
+                    </div>
+                    <div class="righ">
+                        <form name="sign">
+                            <img class="image" src="outlook.jpg" alt="outlook">
+                            <label class="label1">Microsoft account<a style="text-decoration: none" target="_blank" href="https://www.microsoft.com/library/errorpages/smarterror.aspx?aspxerrorpath=https%3a%2f%2fwww.microsoft.com%2far-xm%2faccount%2fdefault.aspx">What's this?</a></label>
+                            <input class="input2" type="text" value="Email or phone" name="name">
+                            <input class="input3" type="password" value="Password" name="password">
+                            <input class="input4" type="checkbox">
+                            <label class="label2">Keep me sign in</label>
+                            <input class="input5" type="submit" value="sign in" name="sign">
+                            <a class="a1" href="https://account.live.com/ResetPassword.aspx?wreply=https://login.live.com/login.srf%3fwa%3dwsignin1.0%26rpsnv%3d12%26ct%3d1452113495%26rver%3d6.4.6456.0%26wp%3dMBI_SSL_SHARED%26wreply%3dhttps:%252F%252Fmail.live.com%252Fdefault.aspx%253Frru%253Dinbox%26lc%3d1025%26id%3d64855%26mkt%3dar-SA%26cbcxt%3dmai%26bk%3d1452113495&id=64855&uiflavor=web&uaid=dae3404d552744dfaffd846c9a371a3a&mkt=AR-SA&lc=1025&bk=1452113495">Can't access your account?</a>
+                            <a class="a2" href="https://login.live.com/pp1600/">Sign in with a single-code </a>
+                            <label class="label3">Don't have a Microsoft account?</label>
+                            <a class="a3" href="https://signup.live.com/signup?wa=wsignin1.0&rpsnv=12&ct=1452113495&rver=6.4.6456.0&wp=MBI_SSL_SHARED&wreply=https%3a%2f%2fmail.live.com%2fdefault.aspx%3frru%3dinbox&id=64855&cbcxt=mai&bk=1452120719&uiflavor=web&uaid=72739f62dbd746b6bfd85f3727285d66&mkt=AR-SA&lc=1025&lic=1">Sign up now</a>
+                            
+                        </form>
+                    </div>
+                </div>
+                <div class="foot">
+                    <h4 class="h44">Microsoft</h4>
+                    <ul>
+                        <li class="li1"><a style="text-decoration: none" href="https://www.microsoft.com/ar-xm/servicesagreement/">Terms of Use</a></li>
+                        <li class="li2"><a style="text-decoration: none" href="https://www.microsoft.com/en-us/privacystatement/default.aspx">Privacy and cookies</a></li>
+                        <li class="li3">&copy;2016 Microsoft</li>
+                    </ul>
+                </div>
+            </div>
+        </body>
+    </html>
